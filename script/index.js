@@ -238,3 +238,44 @@ document.getElementById("call-btn-anti-corruption").addEventListener("click", fu
 
 ////////************************** */
 
+
+// heart count
+
+const heartIcons = document.getElementsByClassName("heart-icon");
+
+for (let heartIcon of heartIcons) {
+  heartIcon.addEventListener("click", function () {
+    let heartCountElement = document.getElementById("heart-click-count");
+    let heartCount = parseInt(heartCountElement.innerText);
+    heartCount++;
+    heartCountElement.innerText = heartCount;
+    console.log(heartCount);
+  })
+}
+
+document.getElementById("btn-clear").addEventListener("click", function () {
+  const historyBox = document.getElementById("call-history");
+
+  historyBox.innerHTML = "";
+})
+
+const btnCopys = document.getElementsByClassName("btn-copy");
+
+for (let btnCopy of btnCopys) {
+  btnCopy.addEventListener("click", function () {
+    let copyCountElement = document.getElementById("copy-count");
+    let copyCount = parseInt(copyCountElement.innerText);
+
+    copyCount++;
+    copyCountElement.innerText = copyCount;
+
+    const emergencyNumber = btnCopy.parentNode.parentNode.childNodes[7].innerText;
+
+    const serviceName = btnCopy.parentNode.parentNode.childNodes[3].innerText;
+
+    navigator.clipboard.writeText(emergencyNumber);
+
+    alert(serviceName + " copied: " + emergencyNumber);
+
+  })
+}
