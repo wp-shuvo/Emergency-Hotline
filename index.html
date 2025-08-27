@@ -29,14 +29,17 @@
       </div>
       <div class="right-side-nav flex items-center gap-2">
         <div class="flex items-center gap-2 bg-[#41ff6b1a] px-[35px] py-[11px] rounded-3xl">
+          <!-- heart -->
           <p class="text-black font-extrabold text-[18px]">0</p>
           <img src="./assets/heart.png" class="max-w-[20px]" alt="">
         </div>
         <div class="flex items-center gap-2 bg-[#41ff6b1a] px-[35px] py-[11px] rounded-3xl">
-          <p class="text-black font-extrabold text-[18px]">100</p>
+          <!-- coin -->
+          <p id="total-coin" class="text-black font-extrabold text-[18px]">100</p>
           <img src="./assets/coin.png" class="max-w-[20px]" alt="">
         </div>
         <div>
+          <!-- copy -->
           <p class="bg-[#00a63e] px-[35px] py-[11px] rounded-3xl text-[18px] font-bold text-white "><span>0</span>
             Copy</p>
         </div>
@@ -62,14 +65,13 @@
   </section>
 
   <!-- Service Directory conatiner Section-->
-  <section class="bg-[#f5fff6]">
+  <section class="bg-[#dcfbdf]">
     <section id="directory-container"
       class="bg-cover w-11/12 mx-auto py-[45px] grid grid-cols-12 gap-7 max-sm:flex flex-col max-lg:flex max-lg:flex-col ">
 
       <!-- Service Directory card Section -->
       <section id="directory-card-container"
         class="col-span-9 grid grid-cols-3 grid-rows-2 gap-5 max-sm:grid-cols-1 max-sm:mx-auto max-lg:grid-cols-2 max-md:mx-auto">
-        <!-- <h2 class="text-gray-900 font-bold text-[32px] bg-slate-100 max-sm:text-[30px]">Service Directory</h2> -->
 
         <div class="card bg-white p-8 max-w-[430px] shadow-lg">
           <div class="flex items-center justify-between mb-7">
@@ -83,11 +85,11 @@
             National Emergency
           </p>
           <span class="text-3xl font-bold mb-1">999</span>
-          <div class="text-gray-500 text-lg bg-[#f2f2f2] py-2 px-4 rounded-2xl max-w-[55px] text-center mb-6">All</div>
+          <div class="text-gray-500 text-lg bg-gray-200 py-2 px-4 rounded-2xl max-w-[55px] text-center mb-6">All</div>
           <div class="flex gap-1">
             <button class="btn basis-1/2 border-e-gray-400 text-[#5c5c5c]"><i class="fa-regular fa-copy"></i>
               Copy</button>
-            <button class="basis-1/2 bg-[#00a63e] text-white rounded-sm hover:bg-[#01802f]"><i
+            <button id="call-btn-emargency" class="basis-1/2 bg-[#00a63e] text-white rounded-sm hover:bg-[#01802f]"><i
                 class="fa-solid fa-phone"></i> Call</button>
           </div>
 
@@ -105,12 +107,12 @@
             Police
           </p>
           <span class="text-3xl font-bold mb-1">999</span>
-          <div class="text-gray-500 text-lg bg-[#f2f2f2] py-2 px-4 rounded-2xl max-w-[80px] text-center mb-6">Police
+          <div class="text-gray-500 text-lg bg-gray-200 py-2 px-4 rounded-2xl max-w-[80px] text-center mb-6">Police
           </div>
           <div class="flex gap-1">
             <button class="btn basis-1/2 border-e-gray-400 text-[#5c5c5c]"><i class="fa-regular fa-copy"></i>
               Copy</button>
-            <button class="basis-1/2 bg-[#00a63e] text-white rounded-sm hover:bg-[#01802f]"><i
+            <button id="call-btn-Police" class="basis-1/2 bg-[#00a63e] text-white rounded-sm hover:bg-[#01802f]"><i
                 class="fa-solid fa-phone"></i> Call</button>
           </div>
 
@@ -128,13 +130,14 @@
             Fire Service
           </p>
           <span class="text-3xl font-bold mb-1">999</span>
-          <div class="text-gray-500 text-lg bg-[#f2f2f2] py-2 px-4 rounded-2xl max-w-[80px] text-center mb-6">Fire
+          <div class="text-gray-500 text-lg bg-gray-200 py-2 px-4 rounded-2xl max-w-[80px] text-center mb-6">Fire
           </div>
           <div class="flex gap-1">
             <button class="btn basis-1/2 border-e-gray-400 text-[#5c5c5c]"><i class="fa-regular fa-copy"></i>
               Copy</button>
-            <button class="basis-1/2 bg-[#00a63e] text-white rounded-sm hover:bg-[#01802f]"><i
-                class="fa-solid fa-phone"></i> Call</button>
+            <button id="call-btn-Fire-Service"
+              class="basis-1/2 bg-[#00a63e] text-white rounded-sm hover:bg-[#01802f]"><i class="fa-solid fa-phone"></i>
+              Call</button>
           </div>
 
         </div>
@@ -145,18 +148,18 @@
             <i class="fa-regular fa-heart text-[24px]"></i>
           </div>
           <h2 class="text-2xl font-bold">
-            Ambulance
+            Ambulance Service
           </h2>
           <p class="text-lg text-[#404040] mb-7">
-            Fire Service
+            Ambulance
           </p>
           <span class="text-3xl font-bold mb-1">1994-999999</span>
-          <div class="text-gray-500 text-lg bg-[#f2f2f2] py-2 px-4 rounded-2xl max-w-[80px] text-center mb-6">Health
+          <div class="text-gray-500 text-lg bg-gray-200 py-2 px-4 rounded-2xl max-w-[80px] text-center mb-6">Health
           </div>
           <div class="flex gap-1">
             <button class="btn basis-1/2 border-e-gray-400 text-[#5c5c5c]"><i class="fa-regular fa-copy"></i>
               Copy</button>
-            <button class="basis-1/2 bg-[#00a63e] text-white rounded-sm hover:bg-[#01802f]"><i
+            <button id="call-btn-Ambulance" class="basis-1/2 bg-[#00a63e] text-white rounded-sm hover:bg-[#01802f]"><i
                 class="fa-solid fa-phone"></i> Call</button>
           </div>
 
@@ -174,12 +177,12 @@
             Women & Child Helpline
           </p>
           <span class="text-3xl font-bold mb-1">109</span>
-          <div class="text-gray-500 text-lg bg-[#f2f2f2] py-2 px-4 rounded-2xl max-w-[80px] text-center mb-6">Help
+          <div class="text-gray-500 text-lg bg-gray-200 py-2 px-4 rounded-2xl max-w-[80px] text-center mb-6">Help
           </div>
           <div class="flex gap-1">
             <button class="btn basis-1/2 border-e-gray-400 text-[#5c5c5c]"><i class="fa-regular fa-copy"></i>
               Copy</button>
-            <button class="basis-1/2 bg-[#00a63e] text-white rounded-sm hover:bg-[#01802f]"><i
+            <button id="call-btn-woman" class="basis-1/2 bg-[#00a63e] text-white rounded-sm hover:bg-[#01802f]"><i
                 class="fa-solid fa-phone"></i> Call</button>
           </div>
 
@@ -197,13 +200,14 @@
             Anti-Corruption
           </p>
           <span class="text-3xl font-bold mb-1">106</span>
-          <div class="text-gray-500 text-lg bg-[#f2f2f2] py-2 px-4 rounded-2xl max-w-[80px] text-center mb-6">Govt.
+          <div class="text-gray-500 text-lg bg-gray-200 py-2 px-4 rounded-2xl max-w-[80px] text-center mb-6">Govt.
           </div>
           <div class="flex gap-1">
             <button class="btn basis-1/2 border-e-gray-400 text-[#5c5c5c]"><i class="fa-regular fa-copy"></i>
               Copy</button>
-            <button class="basis-1/2 bg-[#00a63e] text-white rounded-sm hover:bg-[#01802f]"><i
-                class="fa-solid fa-phone"></i> Call</button>
+            <button id="call-btn-anti-corruption"
+              class="basis-1/2 bg-[#00a63e] text-white rounded-sm hover:bg-[#01802f]"><i class="fa-solid fa-phone"></i>
+              Call</button>
           </div>
 
         </div>
@@ -213,14 +217,20 @@
 
       <!-- history aside Section -->
       <aside id="history-box" class="p-[24px] bg-white rounded-xl col-span-3">
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-between mb-[25px]">
           <p class="text-[#111111] text-[20px] font-bold"><i class="fa-regular fa-clock"></i> Call History</p>
           <button
             class="bg-[#00a63e] px-[30px] py-[8px] rounded-3xl text-[16px] font-bold text-white hover:bg-[#01802f]">Clear</button>
         </div>
+
+        <!--call history -->
+        <div id="call-history">
+        </div>
       </aside>
     </section>
   </section>
+
+  <script src="./script/index.js"></script>
 </body>
 
 </html>
