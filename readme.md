@@ -4,7 +4,10 @@
 <p> 2.<b>querySelector</b>: Find the first element that matches a CSS selector. </p>
 <p> 2.<b>querySelectorAll</b>: Finds all elements that match a CSS selector. </p>
 
-How do you create and insert a new element into the DOM?
-What is Event Bubbling and how does it work?
-What is Event Delegation in JavaScript? Why is it useful?
-What is the difference between preventDefault() and stopPropagation() methods?
+<h1> How do you create and insert a new element into the DOM? </h1>
+
+<h1> What is Event Bubbling and how does it work? </h1>
+
+<h1> What is Event Delegation in JavaScript? Why is it useful? </h1>
+
+<h1> What is the difference between preventDefault() and stopPropagation() methods? </h1>
