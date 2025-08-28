@@ -43,6 +43,6 @@
       Difference between preventDefault() and stopPropagation() methods
 </h3>
 <ul>
-      <li> <mark> preventDefault() </mark>mark> → Stops the default browser behavior.</li>
-      <li> <mark> stopPropagation() </mark>mark> → Stops the event from bubbling to parents.</li>
+      <li> <mark> preventDefault() </mark> → Stops the default browser behavior.</li>
+      <li> <mark> stopPropagation() </mark> → Stops the event from bubbling to parents.</li>
 </ul>
