@@ -30,5 +30,13 @@
       Event bubbling is the default DOM (Document Object Model) event propagation behavior where an event, triggered on a nested element, travels up the DOM tree from the target element to its parent, grandparent, and ultimately to the root document element.
 </p>
 <h1> What is Event Delegation in JavaScript? Why is it useful? </h1>
-
+<p>
+      <b>Event Delegation: </b> It's technique based on <mark>Event Bubbling</mark>.There, we place an event listener on the parent element at once, instead of separately placing an event listener on each small child element.
+</p>
+<br>
+<br>
+<h5>Event Delegation is Useful</h5>
+<p>
+      Event Delegation makes code shorter, runs faster, and easily handles new elements.
+</p>
 <h1> What is the difference between preventDefault() and stopPropagation() methods? </h1>
