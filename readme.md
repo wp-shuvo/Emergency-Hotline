@@ -38,3 +38,11 @@
       Event Delegation makes code shorter, runs faster, and easily handles new elements.
 </p>
 <h1> What is the difference between preventDefault() and stopPropagation() methods? </h1>
+
+<h3>
+      Difference between preventDefault() and stopPropagation() methods
+</h3>
+<ul>
+      <li> <mark> preventDefault() </mark>mark> → Stops the default browser behavior.</li>
+      <li> <mark> stopPropagation() </mark>mark> → Stops the event from bubbling to parents.</li>
+</ul>
