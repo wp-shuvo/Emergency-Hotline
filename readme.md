@@ -6,6 +6,52 @@
 
 <h1> How do you create and insert a new element into the DOM? </h1>
 
+<p>
+<h4>To create and insert a New Element into the DOM, We need to follow 3 Steps:</h4> <br>
+      <ol>
+        <li>
+          <h5>To Create Element:</h5>
+          <p>We need to use <mark>document.createElement("tagName")</mark> to create a new element.</p>
+          <b>Example:</b> <br>
+          
+          ```
+          let newElement = document.createElement("p");
+          ```
+        </li>
+        <li>
+           <h5>Add Content or attribute to newElement:</h5>
+          <p>We can set text,<mark><b>id, class</b></mark> to the newElement.</p>
+          <b>Example:</b> 
+          <br>
+          
+          ```
+          newElement.textContent = "Hello PH.";
+          newElement.className = "PH";
+          ```
+        </li>
+        <li>
+          <h5>Insert the element into the DOM:</h5>
+          <ul>
+            <li>First, we need to select the container on the DOM</li>
+            <b>Example:</b> 
+          ```
+          <div id="container"></div>
+          
+          ```
+            <li>THen, <mark>append() </mark> the newElenent</li>
+                      <b>Example:</b> 
+          <br>
+          
+          ```
+          document.getElementById("container").appendChild(newElement);
+          ```
+          </ul>
+        </li>
+      </ol>
+
+
+</p>
+
 <h1> What is Event Bubbling and how does it work? </h1>
 
 <h1> What is Event Delegation in JavaScript? Why is it useful? </h1>
