@@ -20,13 +20,15 @@
           <h5>Insert the element into the DOM:</h5>
           <ul>
             <li>First, we need to select the container on the DOM</li>
-            <li>THen, <mark>append() </mark> the newElenent</li>
+            <li>Then, <mark>append() </mark> the newElenent</li>
           </ul>
         </li>
       </ol>
 </p>
 <h1> What is Event Bubbling and how does it work? </h1>
-
+<p>
+      Event bubbling is the default DOM (Document Object Model) event propagation behavior where an event, triggered on a nested element, travels up the DOM tree from the target element to its parent, grandparent, and ultimately to the root document element.
+</p>
 <h1> What is Event Delegation in JavaScript? Why is it useful? </h1>
 
 <h1> What is the difference between preventDefault() and stopPropagation() methods? </h1>
