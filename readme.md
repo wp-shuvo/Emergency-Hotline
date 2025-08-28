@@ -33,9 +33,7 @@
 <p>
       <b>Event Delegation: </b> It's technique based on <mark>Event Bubbling</mark>.There, we place an event listener on the parent element at once, instead of separately placing an event listener on each small child element.
 </p>
-<br>
-<br>
-<h5>Event Delegation is Useful</h5>
+<h3>Event Delegation is Useful</h3>
 <p>
       Event Delegation makes code shorter, runs faster, and easily handles new elements.
 </p>
