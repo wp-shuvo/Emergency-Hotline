@@ -14,9 +14,8 @@
           <p>We need to use <mark>document.createElement("tagName")</mark> to create a new element.</p>
           <b>Example:</b> <br>
           
-          ```
+          
           let newElement = document.createElement("p");
-          ```
         </li>
         <li>
            <h5>Add Content or attribute to newElement:</h5>
@@ -24,27 +23,27 @@
           <b>Example:</b> 
           <br>
           
-          ```
+
           newElement.textContent = "Hello PH.";
           newElement.className = "PH";
-          ```
+
         </li>
         <li>
           <h5>Insert the element into the DOM:</h5>
           <ul>
             <li>First, we need to select the container on the DOM</li>
             <b>Example:</b> 
-          ```
+
           <div id="container"></div>
           
-          ```
+
             <li>THen, <mark>append() </mark> the newElenent</li>
                       <b>Example:</b> 
           <br>
           
-          ```
+      
           document.getElementById("container").appendChild(newElement);
-          ```
+      
           </ul>
         </li>
       </ol>
